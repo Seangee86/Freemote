@@ -2,7 +2,6 @@
     > SPEC: HTML Practice II
     > You'll create a registration form and confirmation page
     
-
     > create boilerplate in index.html
     > then create a form element which will contain inputs
     > inside the form, add the following inputs, with each on its own line
@@ -27,3 +26,34 @@
 -->
 
 <!-- Add your HTML here -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="second.html">
+        <div>
+            <label for="text">Username</label>
+            <input type="text" id="text">
+        </div>
+        <div><label for="pw">Password</label>
+            <input type="password" id="pw">
+        </div>
+        <label>Gender</label>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="woman">Woman</label>
+            <input type="radio" id="woman" name="gender" value="women">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
